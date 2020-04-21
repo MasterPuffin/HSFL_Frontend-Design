@@ -1,0 +1,70 @@
+header[role=banner]{
+    background-image: linear-gradient(dodgerblue, limegreen);
+}
+
+/*Selects all elements with class="intro"*/
+.preamble {
+    font-style: italic;
+}
+
+/*Selects all elements with both name1 and name2 set within its class attribute*/
+.main.supporting {
+    border: 1px solid red;
+    padding: 0 0 10px 10px;
+}
+
+/*Selects all elements with name2 that is a descendant of an element with name1*/
+.summary .summary-content {
+    padding: 5px;
+    font-family: monospace;
+    color: gray;
+    line-height: 1;
+}
+
+/*Selects the element with id="firstname"*/
+#id {
+}
+
+/*Selects all elements*/
+* {
+    font-family: verdana;
+}
+
+/*Selects all <p> elements*/
+h1 {
+    color: aquamarine;
+}
+
+/*Selects all <p> elements with class="intro"*/
+h1.branding {
+    min-height:200px
+}
+
+/*Selects all <div> elements and all <p> elements*/
+article, header {
+    border-bottom: 2px solid gray;
+}
+
+/*Selects all <p> elements inside <div> elements*/
+article h3 {
+    opacity: 50%;
+}
+
+/*Selects all <p> elements where the parent is a <div> element*/
+p > abbr {
+    text-shadow: 1px 0 purple;
+}
+
+/*Selects all <p> elements that are placed immediately after <div> elements*/
+h3 + p {
+    word-break: break-all;
+}
+
+/*Selects the active link*/
+a:active {
+    color: purple;
+}
+
+a:hover {
+    text-decoration-style: dashed;
+}
