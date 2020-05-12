@@ -1,0 +1,9 @@
+https://www.60fps.fr/en
+
+- Die Seite verwendet Animationen um durch die Seite zu führen
+- Nutzerevents wie Scrollen werden durch die Seite modifiziert
+- Zwischen Seiten wird mit Popups etc gewechselt
+- Interaktive Effekte wie das beobachten des Mauszeigers auf der Personenseite
+
+- Seite zerbricht auf kleinen Bildschirmen
+- Seite funktioniert nicht ohne JS
