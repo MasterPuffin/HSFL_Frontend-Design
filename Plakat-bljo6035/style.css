@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 120px;
+}
+
+.container {
+    padding: 1em;
+}
+
+.row {
+    display: flex;
+    position: absolute;
+    bottom: 1em;
+}
+
+.background {
+    height: 100vh;
+    background-image: url("footprints.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 150px
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    align-self: flex-end;
+    font-size: 15px;
+    padding-left: 2em;
+}
